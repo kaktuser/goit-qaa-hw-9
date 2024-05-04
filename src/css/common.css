@@ -10,9 +10,19 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  margin: 10px;
 }
