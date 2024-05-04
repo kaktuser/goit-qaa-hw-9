@@ -1,10 +1,13 @@
+let timeoutId;
+
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 
 function changeBackgroundColor() {
   document.body.style.backgroundColor = getRandomHexColor();
-  let timeoutId = setTimeout(changeBackgroundColor, 1000);
+  timeoutId = setTimeout(changeBackgroundColor, 1000);
+  return timeoutId;
 }
 
 document
