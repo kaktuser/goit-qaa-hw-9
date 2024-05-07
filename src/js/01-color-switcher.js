@@ -7,7 +7,7 @@ function getRandomHexColor() {
 function changeBackgroundColor() {
   document.body.style.backgroundColor = getRandomHexColor();
   timeoutId = setTimeout(changeBackgroundColor, 1000);
-  return timeoutId;
+  //return timeoutId;
 }
 
 document
